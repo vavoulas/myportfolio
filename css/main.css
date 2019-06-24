@@ -218,6 +218,7 @@
     
     main .icons {
         margin-top: 1rem;
+        margin-left: 9%;
     }
     
     main .icons a {
@@ -406,8 +407,8 @@
             background: url("../img/logoDev2.png");
             background-position: center;
             background-size: cover;
-            width: 150px;
-            height: 150px;
+            width: 145px;
+            height: 145px;
         }
         .about-info {
             grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
