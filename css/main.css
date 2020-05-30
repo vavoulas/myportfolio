@@ -359,6 +359,11 @@
         margin: 0 auto;
         text-align: center;
     }
+    .widget {
+        text-align: center;
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
     
     #main-footer {
         text-align: center;
