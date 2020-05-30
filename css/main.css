@@ -214,6 +214,7 @@
     main {
         padding: 4rem;
         min-height: calc(100vh - 60px);
+        background: #444;
     }
     
     main .icons {
@@ -361,8 +362,8 @@
     }
     .widget {
         text-align: center;
-        padding: 1rem;
-        margin-bottom: 2rem;
+        
+        margin-bottom: 1rem;
       }
     
     #main-footer {
