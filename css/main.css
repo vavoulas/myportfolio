@@ -214,7 +214,8 @@
     main {
         padding: 4rem;
         min-height: calc(100vh - 60px);
-        background: #444;
+        height: 100%;
+        
     }
     
     main .icons {
