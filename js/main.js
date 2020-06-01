@@ -19,7 +19,7 @@ function toggleMenu() {
     menu.classList.add('show');
     menuNav.classList.add('show');
     menuBranding.classList.add('show');
-    widget.classList.add('show');
+    widget.classList.add('hide');
 
     navItems.forEach(item => item.classList.add('show'));
 
@@ -30,7 +30,7 @@ function toggleMenu() {
     menu.classList.remove('show');
     menuNav.classList.remove('show');
     menuBranding.classList.remove('show');
-    idget.classList.remove('show');
+    widget.classList.remove('hide');
     navItems.forEach(item => item.classList.remove('show'));
 
     // Set Menu State
