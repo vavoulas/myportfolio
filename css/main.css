@@ -366,6 +366,11 @@
         
         
       }
+      .widget .hide {
+          visibility: hidden;
+        
+        
+      }
     
     #main-footer {
         text-align: center;
