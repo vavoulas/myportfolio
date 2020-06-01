@@ -368,6 +368,7 @@
       }
     .widget.hide {
       visibility: hidden;
+      display:none;  
 
 
     }
