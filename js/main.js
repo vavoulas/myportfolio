@@ -4,7 +4,7 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
-const widget = document.querySelector('.widget');
+const widget = document.querySelector('#amzn-assoc-ad-f920b679-b16d-4535-a88d-a546908e0d83');
 
 
 
