@@ -4,7 +4,7 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
-const widget = document.querySelector('#amzn-assoc-ad-f920b679-b16d-4535-a88d-a546908e0d83');
+
 
 
 
@@ -19,7 +19,7 @@ function toggleMenu() {
     menu.classList.add('show');
     menuNav.classList.add('show');
     menuBranding.classList.add('show');
-    widget.classList.add('hide');
+   
 
     navItems.forEach(item => item.classList.add('show'));
 
@@ -30,7 +30,7 @@ function toggleMenu() {
     menu.classList.remove('show');
     menuNav.classList.remove('show');
     menuBranding.classList.remove('show');
-    widget.classList.remove('hide');
+    
     navItems.forEach(item => item.classList.remove('show'));
 
     // Set Menu State
